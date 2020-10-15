@@ -3,10 +3,10 @@ import java.util.*;
 
 public class Teacher {
 	String name;
-	ArrayList<String> coursesTaught;
+	ArrayList<Course> coursesTaught;
 	
 	Teacher(String name){
 		this.name = name;
-		coursesTaught = new ArrayList<String>();
+		coursesTaught = new ArrayList<Course>();
 	}
 }
