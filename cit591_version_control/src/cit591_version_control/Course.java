@@ -8,4 +8,8 @@ public class Course {
 		this.name = name;
 		this.quota = quota;
 	}
+	
+	String getName() {
+		return name;
+	}
 }
